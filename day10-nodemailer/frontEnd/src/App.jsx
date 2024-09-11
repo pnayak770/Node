@@ -13,7 +13,7 @@ function App() {
     e.preventDefault();
     try{
 
-      const response = await axios.post("http://localhost:8080/sendEmail",{name,email,message});
+      const response = await axios.post("https://node-qt2t.onrender.com/sendEmail",{name,email,message});
    
       if(response.status==="success"&&response.statusText==="success"){
        setDataSaved(!dataSaved);
