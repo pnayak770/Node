@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios'
+import './App.css'
 
 
 function App() {
@@ -31,17 +32,20 @@ function App() {
 
   return (
     <>
+    <div className='container'>
+
      <h2>NODEMAILER</h2>
-     <form action="" onSubmit={handleSubmit}>
+     <form action="" onSubmit={handleSubmit} className='form'>
 
-      <input type="text" placeholder='enter name' value={name} name ="name" onChange={(e)=>setName(e.target.value)}/>
+      <input type="text" placeholder='Enter Name' value={name} name ="name" onChange={(e)=>setName(e.target.value)}/>
 
-      <input type="email" placeholder='enter email' value={email}  name ="email" onChange={(e)=>setEmail(e.target.value)} />
+      <input type="email" placeholder='Enter Email' value={email}  name ="email" onChange={(e)=>setEmail(e.target.value)} />
 
-      <textarea name="" id="" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
+      <textarea name="" id="" placeholder='Enter your message' value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
 
       <button type='submit'>Submit</button>
      </form>
+    </div>
     </>
   )
 }

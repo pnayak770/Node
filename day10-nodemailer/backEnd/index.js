@@ -37,6 +37,6 @@ transporter.sendMail(msg)
     console.log(error);
     
 })
-})
+        })
 
 app.listen(PORT,()=>console.log(`server is running on port ${PORT}`))
