@@ -7,7 +7,7 @@ const PORT=8080;
 const app=express();
 
 
-app.use(cors({origin:'*'}));
+app.use(cors({origin:'https://node-1-vla7.onrender.com'}));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
