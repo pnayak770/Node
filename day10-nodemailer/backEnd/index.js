@@ -11,7 +11,8 @@ const PORT = 8080;
 const app = express();
 
 // Middleware->this is for cross origin resource sharing   (most importtant)
-app.use(cors({ origin: 'https://node-1-vla7.onrender.com' }));
+// app.use(cors({ origin: 'https://node-1-vla7.onrender.com' }));
+app.use(cors({origin:'https://node-1-vla7.onrender.com'}));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
