@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Tech Solutions Pvt. Ltd.",
+    "location": "Bengaluru, Karnataka",
+    "type": "Full-time",
+    "salary": "₹10,00,000 - ₹15,00,000",
+    "description": "Develop and maintain web applications using Java, Spring Boot, and Angular.",
+    "postedDate": "2024-09-12",
+    "applyUrl": "https://techsolutions.in/careers/software-engineer"
+  },
+  {
+    "id": 2,
+    "title": "Data Analyst",
+    "company": "DataCorp India",
+    "location": "Mumbai, Maharashtra",
+    "type": "Full-time",
+    "salary": "₹6,00,000 - ₹8,00,000",
+    "description": "Analyze business data using SQL, Python, and Tableau to create actionable insights.",
+    "postedDate": "2024-09-11",
+    "applyUrl": "https://datacorpindia.com/jobs/data-analyst"
+  },
+  {
+    "id": 3,
+    "title": "Marketing Manager",
+    "company": "BrandHub Pvt. Ltd.",
+    "location": "New Delhi, Delhi",
+    "type": "Full-time",
+    "salary": "₹12,00,000 - ₹18,00,000",
+    "description": "Lead marketing campaigns, manage digital marketing efforts, and drive brand growth.",
+    "postedDate": "2024-09-10",
+    "applyUrl": "https://brandhub.com/careers/marketing-manager"
+  },
+  {
+    "id": 4,
+    "title": "HR Manager",
+    "company": "People Solutions",
+    "location": "Chennai, Tamil Nadu",
+    "type": "Full-time",
+    "salary": "₹9,00,000 - ₹12,00,000",
+    "description": "Manage recruitment, employee relations, and HR policies for a mid-sized tech company.",
+    "postedDate": "2024-09-09",
+    "applyUrl": "https://peoplesolutions.in/jobs/hr-manager"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer",
+    "company": "CloudNet Solutions",
+    "location": "Hyderabad, Telangana",
+    "type": "Full-time",
+    "salary": "₹14,00,000 - ₹16,00,000",
+    "description": "Implement CI/CD pipelines, manage cloud infrastructure, and ensure system reliability.",
+    "postedDate": "2024-09-08",
+    "applyUrl": "https://cloudnetsolutions.com/jobs/devops-engineer"
+  },
+  {
+    "id": 6,
+    "title": "Product Manager",
+    "company": "InnoTech Pvt. Ltd.",
+    "location": "Pune, Maharashtra",
+    "type": "Full-time",
+    "salary": "₹20,00,000 - ₹25,00,000",
+    "description": "Oversee product development, collaborate with cross-functional teams, and drive product strategy.",
+    "postedDate": "2024-09-07",
+    "applyUrl": "https://innotech.in/careers/product-manager"
+  },
+  {
+    "id": 7,
+    "title": "UI/UX Designer",
+    "company": "Creative Minds",
+    "location": "Bengaluru, Karnataka",
+    "type": "Full-time",
+    "salary": "₹8,00,000 - ₹10,00,000",
+    "description": "Design user-friendly interfaces for web and mobile applications, focusing on UX principles.",
+    "postedDate": "2024-09-06",
+    "applyUrl": "https://creativeminds.com/jobs/ui-ux-designer"
+  },
+  {
+    "id": 8,
+    "title": "Business Analyst",
+    "company": "VisionTech Solutions",
+    "location": "Gurgaon, Haryana",
+    "type": "Full-time",
+    "salary": "₹7,00,000 - ₹9,00,000",
+    "description": "Gather business requirements, create reports, and work with IT to implement solutions.",
+    "postedDate": "2024-09-05",
+    "applyUrl": "https://visiontech.in/jobs/business-analyst"
+  },
+  {
+    "id": 9,
+    "title": "Customer Support Executive",
+    "company": "SupportHub",
+    "location": "Kochi, Kerala",
+    "type": "Full-time",
+    "salary": "₹3,00,000 - ₹5,00,000",
+    "description": "Provide technical support to customers via email, phone, and chat.",
+    "postedDate": "2024-09-04",
+    "applyUrl": "https://supporthub.in/careers/customer-support"
+  },
+  {
+    "id": 10,
+    "title": "Content Writer",
+    "company": "WriteRight",
+    "location": "Jaipur, Rajasthan",
+    "type": "Full-time",
+    "salary": "₹4,00,000 - ₹6,00,000",
+    "description": "Create engaging content for blogs, websites, and social media platforms.",
+    "postedDate": "2024-09-03",
+    "applyUrl": "https://writeright.in/jobs/content-writer"
+  },
+  {
+    "id": 11,
+    "title": "Data Analyst",
+    "company": "DataCorp India",
+    "location": "Mumbai, Maharashtra",
+    "type": "Full-time",
+    "salary": "₹6,00,000 - ₹8,00,000",
+    "description": "Analyze business data using SQL, Python, and Tableau to create actionable insights.",
+    "postedDate": "2024-09-11",
+    "applyUrl": "https://datacorpindia.com/jobs/data-analyst"
+  }
+]
