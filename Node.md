@@ -59,3 +59,57 @@ Secure version of HTTP using encryption for safe communication.
 | **Use Case**     | Non-sensitive websites (e.g., blogs)        | Sensitive websites (e.g., banking, e-commerce) |
 | **Speed**        | Faster, no encryption overhead              | Slightly slower due to encryption           |
 | **Trust Level**  | Less secure                                 | Secure (often shown with a padlock in browser) |
+
+
+### **What is an IP Address?**
+
+An **IP Address (Internet Protocol Address)** is a unique identifier assigned to a device (computer, phone, server) connected to a network. It enables devices to communicate with each other over the internet or local networks.
+
+---
+
+### **Key Points**:
+
+1. **Types**:  
+   - **IPv4**: 32-bit address (e.g., `192.168.1.1`).  
+   - **IPv6**: 128-bit address (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`).  
+
+2. **Purpose**:  
+   Identifies devices and their location on a network for data exchange.
+
+3. **Categories**:  
+   - **Public IP**: Accessible over the internet.  
+   - **Private IP**: Used within private networks.  
+
+4. **Dynamic vs. Static**:  
+   - **Dynamic IP**: Changes over time (assigned by ISPs).  
+   - **Static IP**: Remains constant.  
+
+5. **Example Use**:  
+   Accessing websites, email servers, or connecting devices.
+
+### **What is a Domain Name?**
+
+A **domain name** is the human-readable address of a website on the internet. It translates into an IP address that computers use to identify servers.  
+
+---
+
+### **Key Points**:
+
+1. **Purpose**:  
+   Makes it easier for users to access websites without remembering numeric IP addresses.
+
+2. **Structure**:  
+   - **Example**: `www.example.com`  
+     - `www`: Subdomain  
+     - `example`: Domain name  
+     - `.com`: Top-Level Domain (TLD)  
+
+3. **Common TLDs**:  
+   - `.com`, `.org`, `.net`, `.edu`, `.gov`, etc.  
+
+4. **How It Works**:  
+   When you type a domain name into a browser, it is converted into its corresponding IP address via the **DNS (Domain Name System)**.
+
+5. **Example**:  
+   - Domain name: `google.com`  
+   - IP address: `142.250.190.14`

@@ -53,5 +53,5 @@ Speed	      Faster, no encryption overhead	                Slightly slower due t
 Trust Level	   Less secure	                               Secure (often shown with a padlock in browser)
 
  
-    
+What is an IP Address?
         
