@@ -304,3 +304,7 @@ app.listen(3000, () => {
 ```
 
 ---   
+
+### **Notes:**
+
+-SEQUENCE OF APIS / CODE IS VERY IMPORTANT IN EXPRESS JS
