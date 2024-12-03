@@ -185,3 +185,29 @@ A **REST API (Representational State Transfer API)** is a type of web API that a
 
 ### **In Short**:  
 A REST API is a simple way for applications to communicate over the web, allowing them to exchange data using standard HTTP methods. It's widely used due to its simplicity and flexibility.
+
+
+# **Introduction to Node.js**
+
+## 1. **Introduction**
+- **Node.js** is an open-source, cross-platform JavaScript runtime built on Chrome's V8 JavaScript engine.
+- It allows developers to run JavaScript code on the server-side (outside the browser).
+- Node.js is widely used for building scalable and high-performance web applications.
+
+## 2. **The V8 JavaScript Engine**
+- **V8** is the JavaScript engine developed by Google for Chrome.
+- It compiles JavaScript code directly into machine code, making it very fast.
+- Node.js uses V8 to execute JavaScript code, enabling high performance and speed.
+
+## 3. **Features of Node.js**
+- **Asynchronous and Non-blocking**: Node.js handles multiple operations at once without waiting for each task to finish, improving performance.
+- **Single-threaded**: It uses a single thread for handling requests, making it lightweight and efficient.
+- **Event-driven**: Node.js responds to events (like user requests) and uses callbacks to handle them.
+- **Scalability**: It can handle many connections simultaneously, making it ideal for real-time applications (e.g., chat apps, online games).
+- **Fast**: Thanks to V8 engine, Node.js is known for its fast execution of JavaScript code.
+- **Huge Ecosystem**: Node.js has a large number of libraries available through npm (Node Package Manager), making development faster and easier.
+
+---
+
+### **In Short**:
+Node.js is a powerful JavaScript runtime that enables server-side development. It's fast, scalable, and event-driven, with a large ecosystem of tools.
