@@ -213,3 +213,75 @@ A REST API is a simple way for applications to communicate over the web, allowin
 Node.js is a powerful JavaScript runtime that enables server-side development. It's fast, scalable, and event-driven, with a large ecosystem of tools.
 
 
+# **Environment Setup for Node.js**
+
+## **Commands:**
+
+1. **Initialize a Node.js Project**:
+   - Run the following command to create a `package.json` file and add project information manually:
+     ```bash
+     npm init
+     ```
+   - Alternatively, to create a default `package.json` file with all fields pre-filled:
+     ```bash
+     npm init -y
+     ```
+
+2. **Exit Terminal Process**:
+   - To stop a running process (e.g., a server or `nodemon`), press:
+     ```bash
+     Ctrl + C
+     ```
+
+3. **Run Local `nodemon`**:
+   - To run your Node.js file using `nodemon` installed locally in your project:
+     ```bash
+     npx nodemon fileName
+     ```
+   - Replace `fileName` with the name of your JavaScript file (e.g., `index.js`).
+
+---
+
+### **Note**:
+- Make sure `npm` is installed along with Node.js before starting.
+- `nodemon` automatically restarts your application when file changes are detected. Install it locally with:
+  ```bash
+  npm install --save-dev nodemon
+
+---
+
+# **Introduction to Express.js**
+
+## **What is Express.js?**
+Express.js is a minimal and flexible **web application framework** for Node.js that simplifies building web applications and APIs.
+
+## **Key Features:**
+1. **Routing**: Provides a robust set of features to define routes for different URL endpoints.
+2. **Middleware**: Supports middleware to handle requests, responses, and custom logic.
+3. **API Development**: Simplifies building RESTful APIs.
+4. **Template Engines**: Easily integrates with template engines like EJS, Pug, or Handlebars.
+5. **Scalability**: Lightweight and highly scalable for large applications.
+
+## **Why Use Express.js?**
+1. Simplifies server-side development in Node.js.
+2. Allows for easy integration with databases and other tools.
+3. Offers a vast ecosystem of third-party middleware.
+
+---
+
+## **Basic Example**
+
+### **Using CommonJS (`require`)**:
+
+```javascript
+const express = require('express');
+const app = express();  // Create an instance of Express
+
+app.get('/', (req, res) => {
+  res.send('Hello from Express.js!');
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});   
+```
