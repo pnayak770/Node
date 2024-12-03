@@ -113,3 +113,75 @@ A **domain name** is the human-readable address of a website on the internet. It
 5. **Example**:  
    - Domain name: `google.com`  
    - IP address: `142.250.190.14`
+
+### **Introduction to API**
+
+An **API (Application Programming Interface)** is a set of rules and protocols that allows different software applications to communicate with each other. It defines the methods and data structures that developers can use to interact with the system, service, or application.
+
+---
+
+### **Key Points**:
+
+1. **Purpose**:  
+   Enables different systems, applications, or services to communicate and exchange data.
+
+2. **How It Works**:  
+   - An API provides a set of endpoints (URLs) that applications can request data from or send data to.  
+   - The server responds to the request with the requested data or action.
+
+3. **Types of APIs**:  
+   - **REST API**: Uses HTTP requests (GET, POST, PUT, DELETE) and is stateless.
+   - **SOAP API**: A protocol-based API that uses XML for messages.
+   - **GraphQL API**: A query language for APIs allowing flexible data retrieval.
+
+4. **Example**:  
+   - **Weather API**: Allows applications to request weather data for a specific location.
+   - **Payment API**: Allows applications to process transactions (e.g., Stripe, PayPal).
+
+5. **Benefits**:  
+   - Simplifies integration between systems.  
+   - Enables third-party developers to extend functionalities (e.g., plugins, mobile apps).  
+   - Increases scalability and flexibility of applications.
+
+6. **Common Use Cases**:  
+   - Accessing third-party services (e.g., Google Maps, Twitter).  
+   - Sending and receiving data between a client and server (e.g., web applications, mobile apps).
+
+---
+
+### **In Short**:  
+APIs act as intermediaries that allow different software systems to communicate with each other, enabling integration and data exchange.
+
+### **Introduction to REST API**
+
+A **REST API (Representational State Transfer API)** is a type of web API that allows applications to communicate over the internet using simple HTTP methods. It is based on the principles of REST, an architectural style that emphasizes scalability and simplicity.
+
+---
+
+### **Key Points**:
+
+1. **What It Does**:  
+   REST API enables communication between different software systems over the internet. It allows one system to request data from another using standard HTTP methods.
+
+2. **HTTP Methods Used in REST API**:
+   - **GET**: Retrieves data from the server.
+   - **POST**: Sends data to the server to create a new resource.
+   - **PUT**: Updates existing data on the server.
+   - **DELETE**: Removes data from the server.
+
+3. **Stateless**:  
+   Every request made to the server is independent, meaning the server does not store any information about previous requests. Each request must contain all necessary information.
+
+4. **Structure**:  
+   - The data is often in **JSON** or **XML** format.
+   - Endpoints (URLs) are used to access specific resources (e.g., `https://api.example.com/users`).
+
+5. **Benefits**:  
+   - Simple and easy to use.
+   - Works well with web and mobile applications.
+   - Scalable and flexible.
+
+---
+
+### **In Short**:  
+A REST API is a simple way for applications to communicate over the web, allowing them to exchange data using standard HTTP methods. It's widely used due to its simplicity and flexibility.
