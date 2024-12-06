@@ -1,11 +1,8 @@
-app.get("user/login",(req,res)=>{
-    res.json({
-        succes:true,
-    })
-})
+import express from "express";
 
-app.get("uset/logout",(req,res)=>{
-    res.json({
-        succes:true,
-    })
-})
+
+const router=express.Router();
+
+router.get("user/login",)
+
+router.get("uset/logout",)
