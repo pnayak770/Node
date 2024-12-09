@@ -122,5 +122,7 @@ db.products.find(
     }
 )
 ```     
+### SCHEMA :-structure of the data to expect in incoming request.
 
+### MODEL :- the db collection with which that data will iteract.
 
