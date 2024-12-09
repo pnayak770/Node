@@ -1,14 +1,17 @@
 import express from "express";
 import mongoose from "mongoose";
+import cors from "cors";
 import "dotenv/config";
 
 
 const app=express();
 
+const port=process.env.PORT; 
+
+app.use(cors({origin:"http://localhost:5173"}));
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
-const port=process.env.PORT; 
 
 async function startServer(){
 
@@ -61,8 +64,25 @@ res.send(allBooks);
  });
 
 
- app.post("/api/add/book",(req,res)=>{
+ app.post("/api/add/book",async (req,res)=>{
 
+    try {
+        
+        const {title,author,price,description,publisher}=req.body;
+        const newBook=new Books({
+            title,
+            author,
+            price,
+            description,
+            publisher
+    
+        });
+        await newBook.save();
+        res.status(201).send({message:"book added successfully"});
+    } catch (error) {
+        res.status(500).send({message:"book not added"});
+        
+    }
  }
 
  );
