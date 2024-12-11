@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+  header,
+  footer {
+    background-color: rgb(152, 96, 209);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    color: #fff;
+    height: 50px;
+  }
+  header ul {
+    display: flex;
+  }
+  header a,
+  header ul a {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    color: #fff;
+  }
+  
+  #books,
+  #singleBook {
+    padding: 1rem 3rem;
+  }
+  #books > h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .books-wrapper,
+  #singleBook {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .books-wrapper .book {
+    width: 23%;
+    height: 350px;
+    text-align: center;
+  }
+  .books-wrapper .book img {
+    height: 200px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+  }
+  .books-wrapper .book h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .cta {
+    display: inline-block;
+    margin: 0.25rem 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(152, 96, 209);
+    color: #fff;
+  }
+  
+  #singleBook .left {
+    width: 23%;
+  }
+  #singleBook .left img {
+    max-height: 350px;
+  }
+  
+  #singleBook .right {
+    width: 75%;
+  }
+  #singleBook .right h4 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  #singleBook .right .author,
+  #singleBook .right .description {
+    margin-bottom: 1rem;
+  }
+  #singleBook .right .description {
+    line-height: 1.5;
+  }
+  #singleBook .right .author::before {
+    content: " - ";
+    vertical-align: top;
+  }
+  
+  footer {
+    text-align: center;
+    color: #fff;
+    padding: 0.25rem 0;
+  }
