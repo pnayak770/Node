@@ -6,6 +6,37 @@ import Books from "../models/bookmodele.js";
   res.send(allBooks);
 };
 
+
+export async function getBook(request, response) {
+  const idToFetch = request.params.id;
+  try {
+    if (!idToFetch)
+      return response
+        .status(400)
+        .send({ message: "You must specify a book ID" });
+
+    if (!mongoose.Types.ObjectId.isValid(idToFetch))
+      return response
+        .status(400)
+        .send({ message: "Given ID is not in proper format" });
+
+    const book = await Books.findById(idToFetch);
+    console.log("book", book);
+    if (!book)
+      return response
+        .status(404)
+        .send({ message: "No book found with the given ID" });
+
+    return response.send(book);
+  } catch (error) {
+    return response
+      .status(500)
+      .send({ message: "Error fetching book ", error });
+  }
+}
+
+
+
 export const addBook = async (req, res) => {
   try {
     const { title, author, price, description, publisher } = req.body;
