@@ -12,7 +12,7 @@ function Book() {
 
   async function fetchData(idToFetch) {
     const response = await axios.get(
-      "http://localhost:9091/api/get/book/" + idToFetch
+      "http://localhost:9090/api/get/book/" + idToFetch
     );
     console.log(response.data);
     setBook(response.data);
